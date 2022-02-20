@@ -5,20 +5,19 @@
         <groupId>fish.focus.uvms.maven</groupId>
         <artifactId>uvms-pom</artifactId>
         <relativePath />
-        <version>3.8</version>
+        <version>3.16</version>
     </parent>
 
-    <groupId>eu.europa.ec.fisheries.uvms.user</groupId>
+    <groupId>fish.focus.uvms.user</groupId>
     <artifactId>user</artifactId>
-    <version>2.2.3-SNAPSHOT</version>
+    <version>2.2.3</version>
     <packaging>pom</packaging>
 
     <properties>
         <docker.dev.version>3.43.9</docker.dev.version>
-        <usm.version>2.2.12</usm.version>
-        <uvms.commons.version>4.1.11</uvms.commons.version>
-        <parent.pom.version>3.8</parent.pom.version>
-        <uvms.common.version>4.1.11</uvms.common.version>
+        <usm.version>2.2.13</usm.version>
+        <uvms.commons.version>4.1.12</uvms.commons.version>
+        <parent.pom.version>3.16</parent.pom.version>
     </properties>
 
     <dependencies>
@@ -58,37 +57,8 @@
         </dependencies>
     </dependencyManagement>
 
-
-    <distributionManagement>
-        <repository>
-            <id>focus-releases</id>
-            <name>UnionVms Repository</name>
-            <url>http://nexus.focus.fish/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>focus-snapshots</id>
-            <name>UnionVms Snapshot Repository</name>
-            <url>http://nexus.focus.fish/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
     <build>
         <plugins>
-            <plugin>
-                <groupId>external.atlassian.jgitflow</groupId>
-                <artifactId>jgitflow-maven-plugin</artifactId>
-                <version>1.0-m5.1</version>
-                <configuration>
-                    <flowInitContext>
-                        <masterBranchName>master</masterBranchName>
-                        <developBranchName>development</developBranchName>
-                        <featureBranchPrefix>feature-</featureBranchPrefix>
-                        <releaseBranchPrefix>release-</releaseBranchPrefix>
-                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                    </flowInitContext>
-                    <username>${jgitflow.username}</username>
-                    <password>${jgitflow.password}</password>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -100,8 +70,8 @@
     </build>
 
     <scm>
-        <connection>scm:git:https://github.com/UnionVMS/UVMS-User-APP.git</connection>
-        <url>https://github.com/UnionVMS/UVMS-User-APP</url>
+        <connection>scm:git:https://github.com/FocusFish/UVMS-User.git</connection>
+        <url>https://github.com/FocusFish/UVMS-User</url>
         <tag>HEAD</tag>
     </scm>
 

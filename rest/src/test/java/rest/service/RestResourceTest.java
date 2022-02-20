@@ -14,8 +14,8 @@
  */
 package rest.service;
 
-import eu.europa.ec.fisheries.uvms.user.rest.service.InformationResource;
-import eu.europa.ec.fisheries.uvms.user.service.UserService;
+import fish.focus.uvms.user.rest.service.InformationResource;
+import fish.focus.uvms.user.service.UserService;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
