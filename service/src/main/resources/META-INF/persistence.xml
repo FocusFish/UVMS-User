@@ -3,7 +3,7 @@
   <persistence-unit name="internalPU" transaction-type="JTA">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <jta-data-source>jdbc/USM2</jta-data-source>
-    <class>eu.europa.ec.fisheries.uvms.user.service.entity.Parameter</class>
+    <class>fish.focus.uvms.user.service.entity.Parameter</class>
     <properties>
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
       <!-- <property name="hibernate.hbm2ddl.auto" value="validate"/> -->

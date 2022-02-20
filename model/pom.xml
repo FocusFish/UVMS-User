@@ -7,7 +7,7 @@
     <description>This module shall have interfaces, XSD, and DTOs</description>
 
     <parent>
-        <groupId>eu.europa.ec.fisheries.uvms.user</groupId>
+        <groupId>fish.focus.uvms.user</groupId>
         <artifactId>user</artifactId>
         <version>2.2.3-SNAPSHOT</version>
     </parent>

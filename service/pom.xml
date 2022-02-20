@@ -6,7 +6,7 @@
     <packaging>ejb</packaging>
 
     <parent>
-        <groupId>eu.europa.ec.fisheries.uvms.user</groupId>
+        <groupId>fish.focus.uvms.user</groupId>
         <artifactId>user</artifactId>
         <version>2.2.3-SNAPSHOT</version>
     </parent>
@@ -47,18 +47,18 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-	      	<groupId>eu.europa.ec.mare.usm</groupId>
+	      	<groupId>fish.focus.uvms.usm</groupId>
 	      	<artifactId>Information-Model</artifactId>
 	      	<version>${usm.version}</version>
 	    </dependency>
 		<dependency>
-	      	<groupId>eu.europa.ec.mare.usm</groupId>
+	      	<groupId>fish.focus.uvms.usm</groupId>
 	      	<artifactId>Information-Service</artifactId>
             <version>${usm.version}</version>
           <scope>provided</scope>
 	    </dependency>
         <dependency>
-            <groupId>eu.europa.ec.mare.usm</groupId>
+            <groupId>fish.focus.uvms.usm</groupId>
             <artifactId>Administration-Service</artifactId>
             <version>${usm.version}</version>
             <scope>provided</scope>

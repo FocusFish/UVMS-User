@@ -6,7 +6,7 @@
   <packaging>ear</packaging>
 
   <parent>
-    <groupId>eu.europa.ec.fisheries.uvms.user</groupId>
+    <groupId>fish.focus.uvms.user</groupId>
     <artifactId>user</artifactId>
     <version>2.2.3-SNAPSHOT</version>
   </parent>
@@ -43,58 +43,58 @@
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Information-http-Rest-Service</artifactId>
       <version>${usm.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Authentication-http-Rest-Service</artifactId>
       <version>${usm.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Administration-http-Rest-Service</artifactId>
       <version>${usm.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Administration-https-Rest-Service</artifactId>
       <version>${usm.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Information-Service</artifactId>
       <version>${usm.version}</version>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>jwt-handler-impl</artifactId>
       <version>${usm.version}</version>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Authentication-Service</artifactId>
       <version>${usm.version}</version>
     </dependency>
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Authentication-Model</artifactId>
       <version>${usm.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Information-Model</artifactId>
       <version>${usm.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>eu.europa.ec.mare.usm</groupId>
+      <groupId>fish.focus.uvms.usm</groupId>
       <artifactId>Administration-Service</artifactId>
       <version>${usm.version}</version>
     </dependency>
@@ -128,52 +128,52 @@
               <unpack>true</unpack>
             </webModule>
             <webModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Information-http-Rest-Service</artifactId>
               <contextRoot>${context.root}usm-information</contextRoot>
               <bundleFileName>Information-Rest-Service.war</bundleFileName>
               <unpack>true</unpack>
             </webModule>
             <webModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Administration-http-Rest-Service</artifactId>
               <contextRoot>${context.root}usm-administration</contextRoot>
               <bundleFileName>Administration-Rest-Service.war</bundleFileName>
               <unpack>true</unpack>
             </webModule>
             <webModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Authentication-http-Rest-Service</artifactId>
               <contextRoot>${context.root}usm-authentication</contextRoot>
               <bundleFileName>Authentication-Rest-Service.war</bundleFileName>
               <unpack>true</unpack>
             </webModule>
             <jarModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Information-Model</artifactId>
               <bundleFileName>Information-Model.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Authentication-Model</artifactId>
               <bundleFileName>Authentication-Model.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Information-Service</artifactId>
               <bundleFileName>Information-Service.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>Authentication-Service</artifactId>
               <bundleFileName>Authentication-Service.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
-              <groupId>eu.europa.ec.mare.usm</groupId>
+              <groupId>fish.focus.uvms.usm</groupId>
               <artifactId>jwt-handler-impl</artifactId>
               <bundleFileName>jw-handler-impl.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
