@@ -1,14 +1,14 @@
 <definitions name="UserModule" 
-	targetNamespace="module.user.wsdl.fisheries.ec.europa.eu"
-	xmlns:module="module.user.wsdl.fisheries.ec.europa.eu" 
-	xmlns:tv="types.user.wsdl.fisheries.ec.europa.eu"   
+	targetNamespace="module.user.wsdl.focus.fish"
+	xmlns:module="module.user.wsdl.focus.fish" 
+	xmlns:tv="types.user.wsdl.focus.fish"   
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
 	xmlns="http://schemas.xmlsoap.org/wsdl/">
 
 	<types>
-		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="module.user.wsdl.fisheries.ec.europa.eu">
-			<xsd:import namespace="types.user.wsdl.fisheries.ec.europa.eu" 	schemaLocation="UserContextElement.xsd" />
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="module.user.wsdl.focus.fish">
+			<xsd:import namespace="types.user.wsdl.focus.fish" 	schemaLocation="UserContextElement.xsd" />
 
 			<!-- User Terminal Base Request -->
 			<xsd:simpleType name="UserModuleMethod">
@@ -467,7 +467,7 @@
 		
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 			<xsd:import
-				namespace="types.user.wsdl.fisheries.ec.europa.eu"
+				namespace="types.user.wsdl.focus.fish"
 				schemaLocation="UserContextElement.xsd">
 			</xsd:import></xsd:schema></types>
 
