@@ -9,7 +9,8 @@
            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd"
            logicalFilePath="changelog/v2.0.21/db-changelog-application_2.0.21.xml">
 
-    <changeSet author="joemat" id="add_more_frontend_applications" context="test" failOnError="true">
+    <changeSet author="joemat" id="add_more_frontend_applications" context="test" runInTransaction="true"
+    failOnError="true">
         <insert tableName="application_t">
             <column name="application_id" valueNumeric="14"/>
             <column name="name" value="VMSMapSettings"/>
