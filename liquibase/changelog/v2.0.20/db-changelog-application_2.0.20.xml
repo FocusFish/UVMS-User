@@ -9,8 +9,7 @@
            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd"
            logicalFilePath="changelog/v2.0.20/db-changelog-application_2.0.20.xml">
 
-    <changeSet author="peerik" id="add_frontend_application" context="test" runInTransaction="true"
-    failOnError="true">
+    <changeSet author="peerik" id="add_frontend_application" context="test" failOnError="true">
 	<insert tableName="application_t">
         <column name="application_id" valueNumeric="13"/>
         <column name="name" value="VMSFrontend"/>
