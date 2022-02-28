@@ -26,7 +26,6 @@
             <column name="name" value="settings"/>
             <column name="description" value="VMS Map Settings"/>
             <column name="data_type" value="String"/>
-            <column name="default_value" value="SYSTEM_DEFAULT_VALUE" type="BLOB"/>
             <column name="application_id" valueNumeric="14"/>
             <column name="group_name" value="VMS Map Settings"/>
         </insert>
@@ -47,7 +46,6 @@
             <column name="name" value="settings"/>
             <column name="description" value="VMS User Settings"/>
             <column name="data_type" value="String"/>
-            <column name="default_value" value="SYSTEM_DEFAULT_VALUE" type="BLOB"/>
             <column name="application_id" valueNumeric="15"/>
             <column name="group_name" value="VMSUserSettings"/>
         </insert>
@@ -68,7 +66,6 @@
             <column name="name" value="settings"/>
             <column name="description" value="VMS Search Bookmarks"/>
             <column name="data_type" value="String"/>
-            <column name="default_value" value="SYSTEM_DEFAULT_VALUE" type="BLOB"/>
             <column name="application_id" valueNumeric="16"/>
             <column name="group_name" value="VMSSearchBookmarks"/>
         </insert>
@@ -89,7 +86,6 @@
             <column name="name" value="settings"/>
             <column name="description" value="VMSMapFilters"/>
             <column name="data_type" value="String"/>
-            <column name="default_value" value="SYSTEM_DEFAULT_VALUE" type="BLOB"/>
             <column name="application_id" valueNumeric="17"/>
             <column name="group_name" value="VMS Map Filters"/>
         </insert>

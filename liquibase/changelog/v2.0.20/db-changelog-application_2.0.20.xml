@@ -26,7 +26,6 @@
         <column name="name" value="settings"/>
         <column name="description" value="VMS Frontend settings"/>
         <column name="data_type" value="String"/>
-        <column name="default_value" value="SYSTEM_DEFAULT_VALUE" type="BLOB"/>
         <column name="application_id" valueNumeric="13"/>
         <column name="group_name" value="VMSFrontend"/>
     </insert>
