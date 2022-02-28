@@ -35,13 +35,12 @@
        
     </changeSet>
     
-    <changeSet author="georgige (generated)" id="1443537166505-3" context="test">
+    <changeSet author="georgige (generated)" id="1443537166505-3" context="test" dbms="postgresql">
         <insert tableName="option_t">
             <column name="option_id" valueNumeric="5"/>
             <column name="name" value="TEST_USER_PREFERENCE"/>
             <column name="description" value="TEST_USER_PREFERENCE"/>
             <column name="data_type" value="String"/>
-            <column name="default_value" value="SYSTEM_DEFAULT_VALUE" type="BLOB"/>
             <column name="application_id" valueNumeric="10"/>
             <column name="group_name" value="TEST_APP"/>
         </insert>
