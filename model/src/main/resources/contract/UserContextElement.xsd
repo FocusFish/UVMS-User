@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns="types.user.wsdl.fisheries.ec.europa.eu" targetNamespace="types.user.wsdl.fisheries.ec.europa.eu"
+	xmlns="types.user.wsdl.focus.fish" targetNamespace="types.user.wsdl.focus.fish"
 	version="1.0">
 
 	<xsd:element name="userContextId" type="UserContextId" />

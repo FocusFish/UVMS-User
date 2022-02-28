@@ -35,7 +35,7 @@
        
     </changeSet>
     
-    <changeSet author="georgige (generated)" id="1443537166505-3" context="test" dbms="postgresql">
+    <changeSet author="georgige (generated)" id="1443537166505-3" context="test">
         <insert tableName="option_t">
             <column name="option_id" valueNumeric="5"/>
             <column name="name" value="TEST_USER_PREFERENCE"/>

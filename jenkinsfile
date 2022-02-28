@@ -1,6 +1,6 @@
 #!groovy
 @Library('uvms-jenkins@main') _
 uvmsJenkinsfile {
-  MAVEN_PROFILES          = '-Pgenerate-from-wsdl,jacoco,postgres,testdata,publish-sql'
-  MAVEN_PROFILES_RELEASE  = '-Pgenerate-from-wsdl,postgres,testdata,publish-sql'
+  MAVEN_PROFILES          = '-Pjacoco,postgres,testdata,publish-sql'
+  MAVEN_PROFILES_RELEASE  = '-Ppostgres,testdata,publish-sql'
 }
