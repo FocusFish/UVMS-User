@@ -14,7 +14,7 @@
 		<liquibase.contexts>default</liquibase.contexts>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<liquibase.plugin.version>4.9.1</liquibase.plugin.version>
+		<liquibase.plugin.version>4.15.0</liquibase.plugin.version>
 	</properties>
 
 	<profiles>
