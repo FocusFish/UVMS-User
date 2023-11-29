@@ -10,7 +10,7 @@
 
     <groupId>fish.focus.uvms.user</groupId>
     <artifactId>user</artifactId>
-    <version>2.2.7-SNAPSHOT</version>
+    <version>2.2.7</version>
     <packaging>pom</packaging>
 
     <properties>
