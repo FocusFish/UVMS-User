@@ -17,7 +17,7 @@
         <docker.dev.version>3.43.9</docker.dev.version>
         <usm.version>2.2.14</usm.version>
         <uvms.commons.version>4.1.15</uvms.commons.version>
-        <parent.pom.version>3.22</parent.pom.version>
+        <parent.pom.version>3.23</parent.pom.version>
     </properties>
 
     <dependencies>
