@@ -26,7 +26,7 @@
       <exclusions>
       	<exclusion>
       		<groupId>com.sun.xml.bind</groupId>
-    		<artifactId>jaxb-impl</artifactId>      		
+    		<artifactId>jaxb-impl</artifactId>
       	</exclusion>
       </exclusions>
     </dependency>
@@ -190,7 +190,7 @@
     </plugins>
   </build>
 
-  <!-- USE following command to run this profile: mvn clean install -P wildfly-deploy 
+  <!-- USE following command to run this profile: mvn clean install -P wildfly-deploy
     wildfly:deploy -Dhostname=127.0.0.1 -Dport=9990 -Dusername=admin -Dpassword=asdf -->
   <profiles>
     <profile>

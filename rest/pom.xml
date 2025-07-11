@@ -27,7 +27,7 @@
             <exclusions>
             	<exclusion>
             		<groupId>com.sun.xml.bind</groupId>
-    				<artifactId>jaxb-impl</artifactId>            		
+    				<artifactId>jaxb-impl</artifactId>
             	</exclusion>
             </exclusions>
         </dependency>
@@ -51,7 +51,7 @@
 			<artifactId>uvms-pom-arquillian-deps</artifactId>
 			<type>pom</type>
 			<scope>test</scope>
-		</dependency>				                
+		</dependency>
     </dependencies>
 
     <build>
@@ -111,22 +111,22 @@
                                 <phase>prepare-package</phase>
                                 <goals>
                                     <goal>replace</goal>
-                                </goals>                   
+                                </goals>
                             </execution>
                         </executions>
                         <configuration>
                             <file>rest/src/main/webapp/apidocs/index.html</file>
-                            <replacements>   
+                            <replacements>
                                 <replacement>
                                     <token>new ApiKeyAuthorization\("api_key", key, "query"\)</token>
                                     <value>new ApiKeyAuthorization("Authorization", key, "header")</value>
-                                </replacement>         
+                                </replacement>
                             </replacements>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
         </profile>
-    </profiles> 
+    </profiles>
 
 </project>

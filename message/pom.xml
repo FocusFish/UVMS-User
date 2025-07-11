@@ -22,7 +22,7 @@
             <groupId>fish.focus.uvms.commons</groupId>
             <artifactId>uvms-commons-message</artifactId>
             <version>${uvms.commons.version}</version>
-        </dependency>        
+        </dependency>
     </dependencies>
 
     <build>

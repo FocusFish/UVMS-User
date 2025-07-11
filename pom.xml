@@ -10,6 +10,7 @@
 
     <groupId>fish.focus.uvms.user</groupId>
     <artifactId>user</artifactId>
+    <name>user</name>
     <version>2.2.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -56,18 +57,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <configuration>
-                    <deployAtEnd>true</deployAtEnd>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
     <scm>
         <connection>scm:git:https://github.com/FocusFish/UVMS-User.git</connection>
