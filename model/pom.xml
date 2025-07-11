@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>user-model</artifactId>
-    <name>${project.parent.artifactId}-model</name>   
+    <name>${project.parent.artifactId}-model</name>
     <packaging>ejb</packaging>
     <description>This module shall have interfaces, XSD, and DTOs</description>
 
@@ -11,10 +11,10 @@
         <artifactId>user</artifactId>
         <version>2.2.8-SNAPSHOT</version>
     </parent>
-    
+
     <properties>
         <!-- the name of the wsdlfiles wothout fileending -->
-        <wsdl.contract.name>UserModuleService</wsdl.contract.name>        
+        <wsdl.contract.name>UserModuleService</wsdl.contract.name>
     </properties>
 
     <dependencies>
