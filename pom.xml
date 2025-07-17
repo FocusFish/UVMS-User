@@ -5,19 +5,20 @@
         <groupId>fish.focus.uvms.maven</groupId>
         <artifactId>uvms-pom</artifactId>
         <relativePath />
-        <version>3.19</version>
+        <version>3.33</version>
     </parent>
 
     <groupId>fish.focus.uvms.user</groupId>
     <artifactId>user</artifactId>
-    <version>2.2.7</version>
+    <name>user</name>
+    <version>2.3.0</version>
     <packaging>pom</packaging>
 
     <properties>
         <docker.dev.version>3.43.9</docker.dev.version>
         <usm.version>2.2.14</usm.version>
-        <uvms.commons.version>4.1.12</uvms.commons.version>
-        <parent.pom.version>3.19</parent.pom.version>
+        <uvms.commons.version>4.1.15</uvms.commons.version>
+        <parent.pom.version>3.33</parent.pom.version>
     </properties>
 
     <dependencies>
@@ -56,18 +57,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <configuration>
-                    <deployAtEnd>true</deployAtEnd>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
     <scm>
         <connection>scm:git:https://github.com/FocusFish/UVMS-User.git</connection>
