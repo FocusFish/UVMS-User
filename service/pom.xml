@@ -48,18 +48,18 @@
 		</dependency>
 		<dependency>
 	      	<groupId>fish.focus.uvms.usm</groupId>
-	      	<artifactId>Information-Model</artifactId>
+	      	<artifactId>information-model</artifactId>
 	      	<version>${usm.version}</version>
 	    </dependency>
 		<dependency>
 	      	<groupId>fish.focus.uvms.usm</groupId>
-	      	<artifactId>Information-Service</artifactId>
+	      	<artifactId>information-service</artifactId>
             <version>${usm.version}</version>
           <scope>provided</scope>
 	    </dependency>
         <dependency>
             <groupId>fish.focus.uvms.usm</groupId>
-            <artifactId>Administration-Service</artifactId>
+            <artifactId>administration-service</artifactId>
             <version>${usm.version}</version>
             <scope>provided</scope>
         </dependency>
