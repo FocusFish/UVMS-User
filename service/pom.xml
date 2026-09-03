@@ -8,7 +8,7 @@
     <parent>
         <groupId>fish.focus.uvms.user</groupId>
         <artifactId>user</artifactId>
-        <version>2.3.0</version>
+        <version>2.3.1</version>
     </parent>
 
     <properties>
@@ -48,18 +48,18 @@
 		</dependency>
 		<dependency>
 	      	<groupId>fish.focus.uvms.usm</groupId>
-	      	<artifactId>Information-Model</artifactId>
+	      	<artifactId>information-model</artifactId>
 	      	<version>${usm.version}</version>
 	    </dependency>
 		<dependency>
 	      	<groupId>fish.focus.uvms.usm</groupId>
-	      	<artifactId>Information-Service</artifactId>
+	      	<artifactId>information-service</artifactId>
             <version>${usm.version}</version>
           <scope>provided</scope>
 	    </dependency>
         <dependency>
             <groupId>fish.focus.uvms.usm</groupId>
-            <artifactId>Administration-Service</artifactId>
+            <artifactId>administration-service</artifactId>
             <version>${usm.version}</version>
             <scope>provided</scope>
         </dependency>
