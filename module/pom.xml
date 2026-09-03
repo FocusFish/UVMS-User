@@ -44,31 +44,31 @@
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Information-http-Rest-Service</artifactId>
+      <artifactId>information-http-rest-service</artifactId>
       <version>${usm.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Authentication-http-Rest-Service</artifactId>
+      <artifactId>authentication-http-rest-service</artifactId>
       <version>${usm.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Administration-http-Rest-Service</artifactId>
+      <artifactId>administration-http-rest-service</artifactId>
       <version>${usm.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Administration-https-Rest-Service</artifactId>
+      <artifactId>administration-https-rest-service</artifactId>
       <version>${usm.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Information-Service</artifactId>
+      <artifactId>information-service</artifactId>
       <version>${usm.version}</version>
     </dependency>
     <dependency>
@@ -78,24 +78,24 @@
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Authentication-Service</artifactId>
+      <artifactId>authentication-service</artifactId>
       <version>${usm.version}</version>
     </dependency>
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Authentication-Model</artifactId>
-      <version>${usm.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Information-Model</artifactId>
+      <artifactId>authentication-model</artifactId>
       <version>${usm.version}</version>
     </dependency>
 
     <dependency>
       <groupId>fish.focus.uvms.usm</groupId>
-      <artifactId>Administration-Service</artifactId>
+      <artifactId>information-model</artifactId>
+      <version>${usm.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>fish.focus.uvms.usm</groupId>
+      <artifactId>administration-service</artifactId>
       <version>${usm.version}</version>
     </dependency>
   </dependencies>
@@ -129,47 +129,47 @@
             </webModule>
             <webModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Information-http-Rest-Service</artifactId>
+              <artifactId>information-http-rest-service</artifactId>
               <contextRoot>${context.root}usm-information</contextRoot>
-              <bundleFileName>Information-Rest-Service.war</bundleFileName>
+              <bundleFileName>information-rest-service.war</bundleFileName>
               <unpack>true</unpack>
             </webModule>
             <webModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Administration-http-Rest-Service</artifactId>
+              <artifactId>administration-http-rest-service</artifactId>
               <contextRoot>${context.root}usm-administration</contextRoot>
-              <bundleFileName>Administration-Rest-Service.war</bundleFileName>
+              <bundleFileName>administration-rest-service.war</bundleFileName>
               <unpack>true</unpack>
             </webModule>
             <webModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Authentication-http-Rest-Service</artifactId>
+              <artifactId>authentication-http-rest-service</artifactId>
               <contextRoot>${context.root}usm-authentication</contextRoot>
-              <bundleFileName>Authentication-Rest-Service.war</bundleFileName>
+              <bundleFileName>authentication-rest-service.war</bundleFileName>
               <unpack>true</unpack>
             </webModule>
             <jarModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Information-Model</artifactId>
-              <bundleFileName>Information-Model.jar</bundleFileName>
+              <artifactId>information-model</artifactId>
+              <bundleFileName>information-model.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Authentication-Model</artifactId>
-              <bundleFileName>Authentication-Model.jar</bundleFileName>
+              <artifactId>authentication-model</artifactId>
+              <bundleFileName>authentication-model.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Information-Service</artifactId>
-              <bundleFileName>Information-Service.jar</bundleFileName>
+              <artifactId>information-service</artifactId>
+              <bundleFileName>information-service.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
               <groupId>fish.focus.uvms.usm</groupId>
-              <artifactId>Authentication-Service</artifactId>
-              <bundleFileName>Authentication-Service.jar</bundleFileName>
+              <artifactId>authentication-service</artifactId>
+              <bundleFileName>authentication-service.jar</bundleFileName>
               <includeInApplicationXml>true</includeInApplicationXml>
             </jarModule>
             <jarModule>
